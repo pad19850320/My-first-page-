@@ -65,9 +65,8 @@ def convert_pdf2img(input_file: str, pages: Tuple = None):
         pix.writePNG(output_file)
         output_files.append(output_file)
         print(output_file)
-        
-        #pdg_to_str(output_file,pg)
-
+         #pdg_to_str(output_file,pg)
+        # 1111
     pdfIn.close()
     summary = {
         "File": input_file, "Pages": str(pages), "Output File(s)": str(output_files)
