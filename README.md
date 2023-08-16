@@ -1,8 +1,38 @@
-# -MY Page -
-Мои Обработки 1С /8.3
-My first commit 2020-02-27 Tect
-#-Что такое ASP.NEt-
-ASP.NET (Active Server Pages для .NET) — 
-платформа разработки веб-приложений, в состав которой входит: 
-веб-сервисы, программная инфраструктура, модель программирования, от компании Майкрософт. 
-ASP.NET входит в состав платформы .NET Framework и является развитием более старой технологии Microsoft ASP.
+
+def right_justify(s):
+    wsp=' '
+    s2=''
+    for i in range(70):
+        s2=s2+ wsp;
+    s2=s2+s
+    return s2
+# lesson 2
+def do_twice(f):
+    f()
+    f()
+def do_for(f1):
+    f1()
+    f1()
+    f1()
+    f1()
+def print_row():
+    print('+----',end='')
+    
+def print_row2():
+    print('|    ',end='')
+    print('|    ',end='')
+    print('|')
+    
+def printrow():
+    do_twice(print_row)
+    print('+')
+    do_for(print_row2)
+    do_twice(print_row)
+    print('+')
+    do_for(print_row2)
+    // my first commit
+    
+    
+    do_twice(print_row)
+    print('+')
+    print('commit 16/08/23')
